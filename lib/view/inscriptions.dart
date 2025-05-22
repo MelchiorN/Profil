@@ -14,7 +14,7 @@ class Inscriptions extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
         centerTitle: true,
-        // automaticallyImplyLeading: false,
+        automaticallyImplyLeading: false,
       ),
 
       body: SafeArea(
@@ -48,7 +48,7 @@ class Inscriptions extends StatelessWidget {
                   labelText: 'Mot de passe',
                   border: OutlineInputBorder(),
                 ),
-                obscureText: true,
+                obscureText: false,
               ),
               const SizedBox(height: 15),
               TextField(
@@ -57,7 +57,7 @@ class Inscriptions extends StatelessWidget {
                   labelText: 'Confirmer mot de passe',
                   border: OutlineInputBorder(),
                 ),
-                obscureText: true,
+                obscureText: false,
               ),
               const SizedBox(height: 30),
               ElevatedButton(

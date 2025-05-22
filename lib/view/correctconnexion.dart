@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:newprofil/view/correctinscription.dart';
 import 'package:newprofil/view/inscriptions.dart';
 import 'package:remixicon/remixicon.dart';
 
@@ -121,6 +122,26 @@ class Connexions extends StatelessWidget {
                   ),
                 ],
               ),
+              /* Row(
+                children: [
+                  Text('Vous n\'avez pas de compte?'),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Inscriptionns(),
+                        ),
+                      );
+                    },
+                  ),
+
+                  Text(
+                    'Inscrivez vous!',
+                    style: TextStyle(color: Colors.green),
+                  ),
+                ],
+              ), */
             ],
           ),
         ),

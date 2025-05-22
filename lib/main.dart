@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:newprofil/view/connexion.dart';
-import 'package:newprofil/view/correctconnexion.dart';
+// import 'package:newprofil/view/correctconnexion.dart';
+import 'package:newprofil/view/correctinscription.dart';
 // import 'package:newprofil/view/inscription.dart';
 // import 'package:newprofil/view/inscriptions.dart';
 
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Connexions(),
+      home: const Inscriptionns(),
     );
   }
 }
